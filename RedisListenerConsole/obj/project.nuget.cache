@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "F4Ae1Cl7ioGy9PgqHcWNu66MsFDmdv/Nf4Hr7fROU9GlN97yyDo3JSNS23UIa7/xYVkVA4OcjoBvZzajDm50Sg==",
+  "success": true,
+  "projectFilePath": "/Users/edwin/work_template/ExploreIdentityServer6-docker/RedisListenerConsole/RedisListenerConsole.csproj",
+  "expectedPackageFiles": [
+    "/Users/edwin/.nuget/packages/pipelines.sockets.unofficial/2.2.2/pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "/Users/edwin/.nuget/packages/stackexchange.redis/2.6.80/stackexchange.redis.2.6.80.nupkg.sha512",
+    "/Users/edwin/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

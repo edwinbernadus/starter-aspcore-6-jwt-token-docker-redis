@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  redis_server:
+      build: 
+            context: .
+            dockerfile: redis_work_folder/Dockerfile
+      ports:
+        - "6379:6379"
+  identity:
+      # environment:
+        # ASPNETCORE_URLS: http://*:5000
+      build: 
+        context: .
+        dockerfile: ExploreIdentityServer6/Dockerfile
+      ports:
+        - "8080:80"
+  logic_one:
+    build: 
+      context: .
+      dockerfile: LogicOne/Dockerfile
+    ports:
+      - "8003:80"
+  logic_two:
+    build: 
+      context: .
+      dockerfile: LogicTwo/Dockerfile
+    ports:
+      - "8004:80"

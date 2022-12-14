@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <UserSecretsId>aspnet-ExploreIdentityServer6-49E16FD8-37FC-41C9-8219-7BCAF0CC1797</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.9" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0-preview.6.21355.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0-preview.6.21355.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0-preview.6.21355.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0-preview.6.21352.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0-preview.6.21352.1" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+      <ProjectReference Include="..\ClassLibraryJwt\ClassLibraryJwt.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="AuthModule" />
+    </ItemGroup>
+
+</Project>

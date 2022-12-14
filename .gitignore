@@ -1,0 +1,13 @@
+ExploreIdentityServer6/bin
+ExploreIdentityServer6/obj
+ClassLibraryJwt/bin/
+ClassLibraryJwt/obj/
+LogicOne/bin/
+LogicOne/obj/
+LogicTwo/bin/
+LogicTwo/obj/
+ClassLibrary1/bin/
+ClassLibrary1/obj/
+
+test/bin/
+test/obj/
